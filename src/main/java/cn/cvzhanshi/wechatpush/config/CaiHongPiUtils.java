@@ -20,7 +20,7 @@ import java.util.Map;
 public class CaiHongPiUtils {
 
     public static String getCaiHongPi() {
-        String httpUrl = "http://api.tianapi.com/caihongpi/index?key=6e431b14bbaa7f1282871c0b3ed89b4b";
+        String httpUrl = "http://api.tianapi.com/caihongpi/index?key=id";
         BufferedReader reader = null;
         String result = null;
         StringBuffer sbf = new StringBuffer();
@@ -49,7 +49,7 @@ public class CaiHongPiUtils {
     }
 
     public static Map<String,String> getEnsentence() {
-        String httpUrl = "http://api.tianapi.com/ensentence/index?key=6e431b14bbaa7f1282871c0b3ed89b4b";
+        String httpUrl = "http://api.tianapi.com/ensentence/index?key=id";
         BufferedReader reader = null;
         String result = null;
         StringBuffer sbf = new StringBuffer();
