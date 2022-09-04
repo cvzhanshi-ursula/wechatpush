@@ -23,7 +23,7 @@ public class WeatherUtils {
         // map.put("district_id","320583"); // 昆山行政代码
         map.put("district_id","360702"); // 赣州行政代码
         map.put("data_type","all");//这个是数据类型
-        map.put("ak","wKcGyw8IIR26WHLHTIYhxa2vHLsGSZCf");
+        map.put("ak","xx");
         String res = restTemplate.getForObject(
                 "https://api.map.baidu.com/weather/v1/?district_id={district_id}&data_type={data_type}&ak={ak}",
                 String.class,

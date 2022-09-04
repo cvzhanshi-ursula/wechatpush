@@ -19,8 +19,8 @@ public class Pusher {
     public static void main(String[] args) {
         push();
     }
-    private static String appId = "wxd42a48ff7f0705bb";
-    private static String secret = "64b87b208d16c90afca4a9a1ae18f58a";
+    private static String appId = "xx";
+    private static String secret = "xx";
 
 
 
@@ -33,9 +33,8 @@ public class Pusher {
         wxMpService.setWxMpConfigStorage(wxStorage);
         //2,推送消息
         WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
-                .toUser("oxe6v6hggr_8AGiWSMuhlP9EvIg8") // 灰灰  oxe6v6tH7AWpKPKGIYYndd0LDqjA
-                // jojo oxe6v6hggr_8AGiWSMuhlP9EvIg8
-                .templateId("wMD0bX7lzTMmFTZHooINUgCk7S_pM1NQtY5yUTURveM")
+                .toUser("xx") 
+                .templateId("xx")
                 .build();
         //3,如果是正式版发送模版消息，这里需要配置你的信息
         Weather weather = WeatherUtils.getWeather();
