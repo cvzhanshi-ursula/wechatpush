@@ -20,7 +20,8 @@ public class WeatherUtils {
     public static Weather getWeather(){
         RestTemplate restTemplate = new RestTemplate();
         Map<String,String> map = new HashMap<String,String>();
-        map.put("district_id","320583"); // 昆山行政代码
+        // map.put("district_id","320583"); // 昆山行政代码
+        map.put("district_id","360702"); // 赣州行政代码
         map.put("data_type","all");//这个是数据类型
         map.put("ak","wKcGyw8IIR26WHLHTIYhxa2vHLsGSZCf");
         String res = restTemplate.getForObject(
